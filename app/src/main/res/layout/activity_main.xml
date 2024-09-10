@@ -16,8 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/empty_dice"
-        tools:src="@drawable/dice_1"/>
+        android:src="@drawable/perspective_dice_random"
+        tools:src="@drawable/empty_dice"/>
 
     <Button
         android:id="@+id/roll_dice"
