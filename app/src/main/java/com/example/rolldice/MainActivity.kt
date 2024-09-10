@@ -9,7 +9,6 @@ import kotlin.random.Random
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -21,7 +20,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun rollDice(){
-
         val randomNumber = Random.nextInt(6)+1
         val displayDice = when(randomNumber){
             1 -> R.drawable.dice_1
